@@ -1,0 +1,131 @@
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;   
+    margin-top: 2rem;
+    /* border: 1px solid white; */
+}
+
+.container .image {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+}
+
+.container .image img {
+    height: 90%;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.container .btn {
+    position: absolute;
+    display: flex;
+    height: 2rem;
+    padding: 0.5rem;
+    color: #ffffff;
+    font-family: 'Rubik', sans-serif;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    left: 6rem;
+    top: 20%;
+    border-radius: 0.5rem;
+    background: var(--Bg-Blur, rgba(13, 17, 23, 0.50));
+    backdrop-filter: blur(22.5px);
+    cursor: pointer;
+}
+
+.container .text {
+    display: flex;
+    width: 18rem;
+    margin-right: 4.5rem;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid yellow;
+}
+
+.container .text .LevelUpYourGameJoinTheElite {
+    font-weight: bold;
+    font-family: Bebas Neue, sans-serif;
+}
+
+.container .text .LevelUpYourGameJoinTheElite span {
+    font-size: 500%;
+    font-weight: 500%;
+    line-height: 100%;
+}
+
+/* Media queries */
+
+/* For Mobile Devices */
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+    .container{
+        width: 99%;
+        flex-wrap: wrap;
+        margin-top: 1.5rem;
+    }
+
+    .container .image{
+        width: 95%;
+        margin: auto;
+    }
+
+    .container .image img{
+        height: 100%;
+        width: 95%;
+    }
+
+    .container .btn{
+        left: 2rem;
+        top: 5rem;
+    }
+
+    .container .text{
+        margin-top: 1.5rem;
+        margin-left: 4rem;
+    }
+
+    .container .text .LevelUpYourGameJoinTheElite span{
+        font-size: 300%;
+    }
+}
+
+
+/* iPads and Tablets */
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+
+    .container{
+        flex-wrap: wrap;
+    }
+
+    .container .image{
+        width: 95%;
+        margin: auto;
+    }
+
+    .container .image img{
+        height: 100%;
+        width: 95%;
+    }
+
+    .container .btn{
+        left: 3rem;
+        top: 9rem;
+    }
+
+    .container .text{
+        margin: 1.5rem auto;
+        width: 25rem;
+    }
+
+    .container .text .LevelUpYourGameJoinTheElite span{
+        font-size: 600%;
+    }
+
+}
+
+
