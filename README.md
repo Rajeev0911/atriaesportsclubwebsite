@@ -13,12 +13,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## SS:
 
-#### For Window Screen--
+#### For Window Screen---
 
-![Alt text describing the image](../web-pics/home-pg.png)
+![Alt text describing the image](./web-pics//home-pg.png)
 
 
-#### For Mobile Screenp--
+#### For Mobile Screen---
 
-![Alt text describing the image](../web-pics/home-pg-mobile-view.png)
+![Alt text describing the image](./web-pics/home-pg-mobile-view.png)
 
